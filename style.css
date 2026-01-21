@@ -14,7 +14,7 @@ body {
 /* HEADER */
 .main-header {
   background: linear-gradient(135deg, #0d1b2a, #1b263b);
-  padding: 60px 20px;
+  padding: 70px 20px;
   text-align: center;
   color: #ffffff;
 }
@@ -37,7 +37,7 @@ body {
 .main-header p {
   font-size: 18px;
   color: #dce3f0;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 
 /* BUTTONS */
@@ -51,7 +51,7 @@ body {
 .btn {
   background-color: #e8892c;
   color: #ffffff;
-  padding: 14px 22px;
+  padding: 14px 24px;
   border-radius: 6px;
   text-decoration: none;
   font-weight: bold;
@@ -68,9 +68,32 @@ body {
 /* SECTIONS */
 section {
   max-width: 1000px;
-  margin: 40px auto;
+  margin: 50px auto;
   background: #ffffff;
-  padding: 30px;
-  border-radius: 10px;
+  padding: 35px;
+  border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+section h2 {
+  margin-bottom: 15px;
+  color: #0d1b2a;
+}
+
+section ul {
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+section li {
+  margin-bottom: 10px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #0d1b2a;
+  color: #dce3f0;
+  font-size: 14px;
 }
